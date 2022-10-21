@@ -1,0 +1,58 @@
+[
+  {
+  "id": 1,
+  "title": "Farm to Table",
+  "image": "/assets/images/gifs/farm2table-min.gif",
+  "repository": "https://github.com/reanderson89/farm_to_table",
+  "liveLink": "https://glacial-falls-13622.herokuapp.com/",
+  "description": "An application that makes fresh and local food more easily accessible. Farm to Table will help to connect local farms with customers in their community offering a completely online shopping experience."
+  },
+  {
+  "id": 2,
+  "title": "BarkMatch",
+  "image": "/assets/images/gifs/BarkMatch-min.gif",
+  "repository": "https://github.com/reanderson89/BarkMatch-project2",
+  "liveLink": "https://vast-river-69240.herokuapp.com/",
+  "description": "BarkMatch is an application that allows people to easily search for dogs in shelters that they would like to take for a walk. It also has an admin side so that shelters can keep their dogs up to date."
+  },
+  {
+    "id": 3,
+    "title": "Search-U",
+    "image": "/assets/images/gifs/Search-U-min.gif",
+    "repository": "https://github.com/reanderson89/searchu-project1",
+    "liveLink": "https://reanderson89.github.io/searchu-project1/",
+    "description": "Search-U allows users to search for schools by city or the school name itself that they are interested in, while also taking into consideration quality of life in that area."
+  },
+  {
+    "id": 4,
+    "title": "Employee Directory",
+    "image": "/assets/images/gifs/empDirectory.gif",
+    "repository": "https://github.com/reanderson89/employee-directory",
+    "liveLink": "https://reanderson89.github.io/employee-directory/",
+    "description": "A one stop shop for quick and easy information about your co-workers. Co-workers are dynamically filtered based upon search and can also be sorted."
+  },
+  {
+    "id": 5,
+    "title": "Weather Dashboard",
+    "image": "/assets/images/gifs/WeatherDashboard.gif",
+    "repository": "https://github.com/reanderson89/weather-dashboard",
+    "liveLink": "https://reanderson89.github.io/weather-dashboard/",
+    "description": "This is a weather application that allows users to search for a city they would like. They can save it to a list so that they can check on it when they would like."
+  },
+  {
+    "id": 6,
+    "title": "Note Taker",
+    "image": "/assets/images/gifs/NoteTaker.gif",
+    "repository": "https://github.com/reanderson89/note-taker",
+    "liveLink": "https://limitless-cliffs-83798.herokuapp.com/notes",
+    "description": "Easily jot down notes and save them in one place. They can be pulled up and deleted after being created."
+  },
+  {
+    "id": 7,
+    "title": "Daily Planner",
+    "image": "/assets/images/gifs/WorkDayScheduler.gif",
+    "repository": "https://github.com/reanderson89/work-day-scheduler",
+    "liveLink": "https://reanderson89.github.io/work-day-scheduler/",
+    "description": "A planner that changes colors depending on if the hour has passed or not. Users can save notes for each hour to plan out their day."
+    }
+    ]

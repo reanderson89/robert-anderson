@@ -1,24 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import Portfolio from "./pages/portfolio/Portfolio";
+import Nav from "./components/Nav/Nav";
+import About from "./pages/about/About.jsx";
+import Contact from "./pages/contact/Contact.jsx";
+import { Route, BrowserRouter, Routes} from "react-router-dom";
+import { ThemeProvider } from "@material-ui/core";
+import theme from "./utils/theme.jsx";
+import CssBaseLine from "@material-ui/core/CssBaseline";
+
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <ThemeProvider theme={theme}>
+      <CssBaseLine />
+    <BrowserRouter>
+    <Nav color={theme}/>
+    <Routes>
+      <Route path="/" element={<Portfolio />}/>
+      <Route exact path="/portfolio" element={<Portfolio />} color={theme} />
+      <Route exact path="/about" element={<About />} color={theme}/>
+      <Route exact path="/contact" element={<Contact />} />
+      </Routes>
+    </BrowserRouter>
+    </ThemeProvider>
   );
 }
 
