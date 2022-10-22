@@ -14,7 +14,7 @@ function App() {
   return (
     <ThemeProvider theme={theme}>
       <CssBaseLine />
-    <BrowserRouter>
+    <BrowserRouter basename="/robert-anderson">
     <Nav color={theme}/>
     <Routes>
       <Route path="/" element={<Portfolio />}/>
